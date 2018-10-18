@@ -1,5 +1,4 @@
 import * as Yup from "yup";
 
-const validationSchema = {};
-
+const validationSchema = () => Yup.object().shape({});
 export default validationSchema;
